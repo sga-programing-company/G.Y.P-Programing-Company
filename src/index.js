@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './components/pages/Navbar'
 
 ReactDOM.render(
   <React.StrictMode>
-    <h2>holass</h2>
+    <Navbar />
   </React.StrictMode>,
   document.getElementById('root')
 );

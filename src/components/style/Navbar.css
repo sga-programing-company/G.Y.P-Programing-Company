@@ -1,0 +1,14 @@
+/*
+*********************************************************************
+							NAVBAR OF PHONE
+*********************************************************************
+*/
+.navbar_phone .navbar_main{
+	background: transparent;
+}
+.hidden{
+	display: none;
+}
+.view{
+	display: block;
+}
