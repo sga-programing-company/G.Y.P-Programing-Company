@@ -1,14 +1,100 @@
 /*
 *********************************************************************
+							VIEW AND HIDDEN
+*********************************************************************
+*/
+
+/*div principal*/
+.hiddenOne{
+	background: var(--primary);
+	color: var(--letter-color-secondary);
+}
+.hiddenOne b{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0% 0% 0 5%
+}
+.viewOne{
+	background: transparent;
+	color: var(--letter-color-primary)
+}
+
+/*div secondary*/
+.hiddenTwo{
+	display: none;
+}
+
+.viewTwo{
+	display: inline-flex;
+}
+/*menu*/
+.hiddenThree{
+	display: none;
+}
+
+.viewThree{
+	margin-top: -2px;
+	display: block;
+	background: var(--primary);
+}
+.viewThree div{
+	padding: 2%;
+}
+.viewThree a:any-link{
+	color:var(--letter-color-secondary);
+	text-decoration: none;
+	display: flex;
+}
+.viewThree i{
+	padding: 0 0 0 3%;
+	text-align: left;
+	flex-grow: 1;
+}
+.viewThree p{
+	flex-grow: 2;
+	font-size: 20px;
+	text-align: center;
+	border-right: 3px solid #000;
+	border-bottom: 3px solid #000;
+	border-radius: 0 0 20px 0;
+	width: 70%;
+}
+
+/*
+*********************************************************************
 							NAVBAR OF PHONE
 *********************************************************************
 */
-.navbar_phone .navbar_main{
-	background: transparent;
+
+.navbar_phone{
+	position: fixed;
+	width: 100%;
 }
-.hidden{
-	display: none;
+.navbar_main{
+	padding: 2% 0 2% 5%;
 }
-.view{
-	display: block;
+
+.navbar_main div{
+	margin: 0 0 0 26%;
+	background: var(--secondary);
+	color: var(--letter-color-primary);
+	padding: 1% 5%;
+	border-radius: 10px;
+	width: 60%;
+}
+
+.navbar_main div > i{
+	flex-grow: 1;
+	margin: 4% 0;
+}
+.fa-lg{
+	font-size: 1.5em;
+}
+.navbar_main div > p{
+	font-size: 22px;
+	margin-top: 2.5%;
+	margin-left: 1%;
+	display: inline-block;
+	text-align: center;
+	flex-grow: 2;
 }

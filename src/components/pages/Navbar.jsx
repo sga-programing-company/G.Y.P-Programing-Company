@@ -1,63 +1,90 @@
 import React, { Fragment, useState } from 'react';
-import imagen from '../../images/01.png'
 import '../style/Navbar.css'
 
 const Navbar = () => {
 
 	let [status, setStatus] = useState(false);
 
-	let [position, setPosition] = useState('home');
+	let [position, setPosition] = useState('products');
 
-	let [all, setAll] = useState([]);
+
+	const positions = () => {
+		let array = []
+		if (position === 'home') {
+			array = ['fas fa-home fa-lg', 'HOGAR'];
+		} else if (position === 'products') {
+			array = ['fas fa-credit-card fa-lg', 'PRODUCTOS'];
+		} else if (position === 'contact') {
+			array = ['fas fa-user-astronaut fa-lg', 'CONTACTO'];
+		}
+		return array;
+	}
+	const array = positions();
 
 	return (
 		<Fragment>
 			<nav>
 				<div className='navbar_phone'>
-					<div className='navbar_main'>
-						<i className='fas fa-bars fa-2x'
+					<div className={status === true ? 'navbar_main hiddenOne' : 'navbar_main viewOne'}>
+						<i className='fas fa-bars fa-lg'
 							onClick={() => { status === false ? setStatus(status = true) : setStatus(status = false) }}
 						>
 						</i>
 						<b>{status === false ? '' : 'MENU'}</b>
+						<div className={status === true ? 'hiddenTwo' : 'viewTwo'} >
+							<i className={array[0]}></i>
+							<p>{array[1]}</p>
+						</div>
 					</div>
 
-					<div className={status === false ? 'hidden' : 'view'}>
+					<div className={status === false ? 'hiddenThree' : 'viewThree'}>
 						<ul>
 							<li>
-								<a onClick={() => {
-									position !== 'home' ? setAll(all = setPosition(position = 'home'), setStatus(status = false)) : setPosition(position = position)
-								}}
-								>
-									<i className='fas fa-home fa-2x'></i>
-										HOME
-								</a>
+								<div>
+									<a href='#'
+										onClick={() => {
+											setPosition(position = 'home');
+											setStatus(status = false);
+										}}
+									>
+										<i className='fas fa-home fa-lg'></i>
+										<p>HOGAR</p>
+									</a>
+								</div>
 							</li>
 
 							<li>
-								<a onClick={() => {
-									position !== 'services' ? setAll(all = setPosition(position = 'services'), setStatus(status = false)) : setPosition(position = position)
-								}}
-								>
-									<i className='fas fa-credit-card fa-2x'></i>
-										PRODUCTOS
-								</a>
+								<div>
+									<a href='#'
+										onClick={() => {
+											setPosition(position = 'products');
+											setStatus(status = false);
+										}}
+									>
+										<i className='fas fa-credit-card fa-lg'></i>
+										<p>PRODUCTOS</p>
+									</a>
+								</div>
 							</li>
 
 							<li>
-								<a onClick={() => {
-									position !== 'contacto' ? setAll(all = setPosition(position = 'contacto'), setStatus(status = false)) : setPosition(position = position)
-								}}
-								>
-									<i className='fas fa-user-astronaut fa-2x'></i>
-										CONTACTO
-								</a>
+								<div>
+									<a href='#'
+										onClick={() => {
+											setPosition(position = 'contact');
+											setStatus(status = false);
+										}}
+									>
+										<i className='fas fa-user-astronaut fa-lg'></i>
+										<p>CONTACTO</p>
+									</a>
+								</div>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-		</Fragment>
+		</Fragment >
 	)
 }
 export default Navbar;

@@ -1,0 +1,25 @@
+/*
+*********************************************************************
+							TITLE PRINCIPAL
+*********************************************************************
+*/
+.title_main{
+    background-image: url(../../images/02.jpg);
+    background-attachment: unset;
+    background-position: center;
+    background-size: cover;
+    color:var(--letter-color-primary);
+    text-align: center;
+}
+.title_main div{
+    background: #00000045;
+}
+.title_main div h1{
+    padding-top: 30%;
+    font-size: 22px;
+}
+.title_main div h2{
+    padding-top: 5%;
+    padding-bottom: 30px;
+    font-size: 12px;
+}

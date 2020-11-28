@@ -1,0 +1,22 @@
+/*
+*********************************************************************
+							    ABOUT US 
+*********************************************************************
+*/
+.aboutUs_main{
+    background: linear-gradient(180deg, #0DF7BF 0%, #0000 93.72%);
+}
+.aboutUs_main h2{
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+}
+.aboutUs_main p{
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 6%;
+    padding-bottom: 8%;
+}
