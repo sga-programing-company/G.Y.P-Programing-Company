@@ -1,11 +1,12 @@
 import React, { Fragment, useState } from 'react';
+import { Link } from "react-router-dom";
 import '../style/Navbar.css'
 
 const Navbar = () => {
 
 	let [status, setStatus] = useState(false);
 
-	let [position, setPosition] = useState('products');
+	let [position, setPosition] = useState('home');
 
 
 	const positions = () => {
@@ -41,7 +42,7 @@ const Navbar = () => {
 						<ul>
 							<li>
 								<div>
-									<a href='#'
+									<Link to='/home'
 										onClick={() => {
 											setPosition(position = 'home');
 											setStatus(status = false);
@@ -49,13 +50,13 @@ const Navbar = () => {
 									>
 										<i className='fas fa-home fa-lg'></i>
 										<p>HOGAR</p>
-									</a>
+									</Link>
 								</div>
 							</li>
 
 							<li>
 								<div>
-									<a href='#'
+									<Link to='/'
 										onClick={() => {
 											setPosition(position = 'products');
 											setStatus(status = false);
@@ -63,13 +64,13 @@ const Navbar = () => {
 									>
 										<i className='fas fa-credit-card fa-lg'></i>
 										<p>PRODUCTOS</p>
-									</a>
+									</Link>
 								</div>
 							</li>
 
 							<li>
 								<div>
-									<a href='#'
+									<Link to='/'
 										onClick={() => {
 											setPosition(position = 'contact');
 											setStatus(status = false);
@@ -77,7 +78,7 @@ const Navbar = () => {
 									>
 										<i className='fas fa-user-astronaut fa-lg'></i>
 										<p>CONTACTO</p>
-									</a>
+									</Link>
 								</div>
 							</li>
 						</ul>

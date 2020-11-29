@@ -1,0 +1,24 @@
+/*
+*********************************************************************
+								VARIABLES
+*********************************************************************
+*/
+:root{
+	--primary: #0BEFA2;
+	--secondary: #383838;
+	--tertiary: #0DF6BF;
+	--letter-color-primary: #fff;
+	--letter-color-secondary: #333;
+}
+.services_main{
+    background: transparent;
+}
+.services_main h3{
+    text-align: center;
+    color:var(--letter-color-primary)
+}
+.services_main figure figcaption p {
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+}

@@ -10,7 +10,7 @@ const AboutUs = () => {
                         <h2>QUIENES SOMOS</h2>
                         <p>
                             somos un equipo de programadores que quiere  ayudar a las empresas a modernizarse y llevarlas al progreso, por eso hemos diseñado unas estrategias de marketin digital para aumenta las ventas tanto virtuales como fisicas
-                    </p>
+                        </p>
                     </div>
                 </article>
             </section>
