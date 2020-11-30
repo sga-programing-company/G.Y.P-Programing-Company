@@ -8,7 +8,6 @@ const Navbar = () => {
 
 	let [position, setPosition] = useState('home');
 
-
 	const positions = () => {
 		let array = []
 		if (position === 'home') {
@@ -20,6 +19,7 @@ const Navbar = () => {
 		}
 		return array;
 	}
+
 	const array = positions();
 
 	return (
@@ -83,8 +83,12 @@ const Navbar = () => {
 							</li>
 						</ul>
 					</div>
+
 				</div>
 			</nav>
+			<div className={status === false ? 'hiddenFour' : 'viewFour'}>
+
+			</div>
 		</Fragment >
 	)
 }

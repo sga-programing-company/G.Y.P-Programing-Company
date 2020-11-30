@@ -3,7 +3,6 @@
 							VIEW AND HIDDEN
 *********************************************************************
 */
-
 /*div principal*/
 .hiddenOne{
 	background: var(--primary);
@@ -67,7 +66,7 @@
 */
 
 .navbar_phone{
-	position: fixed;
+	position: absolute;
 	width: 100%;
 }
 .navbar_main{

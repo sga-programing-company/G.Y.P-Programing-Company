@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from "react-router-dom";
 import '../../style/Services.css'
 
 const Services = ({ title, images, seo, contenet, link }) => {
@@ -14,7 +15,9 @@ const Services = ({ title, images, seo, contenet, link }) => {
                         </figcaption>
                     </figure>
                     <div>
-                        <p>VER MÁS</p>
+                        <p>
+                            <Link to={link}>VER MÁS</Link>
+                        </p>
                     </div>
                 </div>
             </article>
