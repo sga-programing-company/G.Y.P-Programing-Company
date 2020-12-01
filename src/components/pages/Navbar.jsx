@@ -8,7 +8,6 @@ const Navbar = () => {
 
 	let [position, setPosition] = useState('home');
 
-
 	const positions = () => {
 		let array = []
 		if (position === 'home') {
@@ -20,6 +19,7 @@ const Navbar = () => {
 		}
 		return array;
 	}
+
 	const array = positions();
 
 	return (
@@ -32,7 +32,7 @@ const Navbar = () => {
 						>
 						</i>
 						<b>{status === false ? '' : 'MENU'}</b>
-						<div className={status === true ? 'hiddenTwo' : 'viewTwo'} >
+						<div className={status === false ? 'viewTwo' : 'hiddenTwo'} >
 							<i className={array[0]}></i>
 							<p>{array[1]}</p>
 						</div>

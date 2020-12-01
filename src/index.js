@@ -1,20 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Switch, Route, Redirect, } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
+
 import Navbar from './components/pages/Navbar'
-import './components/style/index.css'
 import PagePrincipal from './components/pages/PagePrincipal';
+import Footer from './components/pages/Footer';
+import './components/style/index.css'
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/home'>
+        <Route path='/'>
           <PagePrincipal />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

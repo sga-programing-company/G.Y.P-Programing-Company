@@ -1,10 +1,16 @@
 /*
 *********************************************************************
+							
 							VIEW AND HIDDEN
+
+*********************************************************************
+*/
+/*
+*********************************************************************
+							DIV PRINCIPAL
 *********************************************************************
 */
 
-/*div principal*/
 .hiddenOne{
 	background: var(--primary);
 	color: var(--letter-color-secondary);
@@ -14,20 +20,49 @@
 	font-size: 20px;
 	padding: 0% 0% 0 5%
 }
+.hiddenOne > i{
+	padding: 3.4% 0;
+}
 .viewOne{
 	background: transparent;
 	color: var(--letter-color-primary)
 }
 
-/*div secondary*/
+/*
+*********************************************************************
+							DIV SECONDARY
+*********************************************************************
+*/
 .hiddenTwo{
 	display: none;
 }
 
 .viewTwo{
 	display: inline-flex;
+	margin: 0 0 0 26%;
+	background: var(--secondary);
+	color: var(--letter-color-primary);
+	padding: 1% 5%;
+	border-radius: 10px;
+	width: 60%;
 }
-/*menu*/
+.viewTwo > i{
+	flex-grow: 1;
+	margin: 4% 0;
+}
+.viewTwo > p{
+	font-size: 22px;
+	margin-top: 2.5%;
+	margin-left: 1%;
+	display: inline-block;
+	text-align: center;
+	flex-grow: 2;
+}
+/*
+*********************************************************************
+									MENU
+*********************************************************************
+*/
 .hiddenThree{
 	display: none;
 }
@@ -67,34 +102,12 @@
 */
 
 .navbar_phone{
-	position: fixed;
+	position: absolute;
 	width: 100%;
 }
 .navbar_main{
 	padding: 2% 0 2% 5%;
 }
-
-.navbar_main div{
-	margin: 0 0 0 26%;
-	background: var(--secondary);
-	color: var(--letter-color-primary);
-	padding: 1% 5%;
-	border-radius: 10px;
-	width: 60%;
-}
-
-.navbar_main div > i{
-	flex-grow: 1;
-	margin: 4% 0;
-}
 .fa-lg{
 	font-size: 1.5em;
-}
-.navbar_main div > p{
-	font-size: 22px;
-	margin-top: 2.5%;
-	margin-left: 1%;
-	display: inline-block;
-	text-align: center;
-	flex-grow: 2;
 }

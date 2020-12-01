@@ -1,0 +1,23 @@
+.footer_main{
+    background: var(--primary);
+}
+.footer_main > div{
+    padding: 3%;
+}
+.footer_main > div > div{
+    display: flex;
+    width: 100%;
+}
+.footer_main a i{
+    padding-right: 5%;
+    flex-grow: 1;
+}
+.footer_main a:any-link{
+    display: inline-block;
+    padding: 1%;
+    flex-grow: 2;
+    width: 100%;
+    color: var(--letter-color-secondary);
+    text-decoration: none;
+    font-size: 22px;
+}

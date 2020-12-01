@@ -4,7 +4,7 @@
 *********************************************************************
 */
 .title_main{
-    background-image: url(../../images/02.jpg);
+    background-image: url(https://github.com/sga-programing-company/imagenes/blob/main/02.jpg?raw=true);
     background-attachment: unset;
     background-position: center;
     background-size: cover;
@@ -16,10 +16,10 @@
 }
 .title_main div h1{
     padding-top: 30%;
-    font-size: 22px;
+    padding-bottom: 5%;
+    font-size: 25px;
 }
 .title_main div h2{
-    padding-top: 5%;
-    padding-bottom: 30px;
-    font-size: 12px;
+    padding-bottom: 25%;
+    font-size: 15px;
 }
