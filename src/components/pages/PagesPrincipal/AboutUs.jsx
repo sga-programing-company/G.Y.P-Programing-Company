@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import '../../style/AboutUs.css'
+import '../../style/PagesPrincipalStyle/AboutUs.css'
 
 const AboutUs = () => {
     return (

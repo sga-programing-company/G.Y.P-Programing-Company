@@ -4,12 +4,12 @@
 *********************************************************************
 */
 .aboutUs_main{
-    background: linear-gradient(180deg, #0DF7BF 0%, #0000 93.72%);
+    background: linear-gradient(180deg,#0DF6BF 20%, #0000 100%);
 }
 .aboutUs_main h2{
     text-align: center;
-    padding: 5%;
-    font-size: 20px;
+    padding: 10% 0 5% 0;
+    font-size: 30px;
 }
 .aboutUs_main p{
     font-size: 12px;
@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 0 6%;
-    padding-bottom: 8%;
+    padding: 0 8%;
+    padding-bottom: 20%;
+    color: #222;
 }

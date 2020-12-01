@@ -32,7 +32,7 @@ const Navbar = () => {
 						>
 						</i>
 						<b>{status === false ? '' : 'MENU'}</b>
-						<div className={status === true ? 'hiddenTwo' : 'viewTwo'} >
+						<div className={status === false ? 'viewTwo' : 'hiddenTwo'} >
 							<i className={array[0]}></i>
 							<p>{array[1]}</p>
 						</div>
@@ -83,12 +83,8 @@ const Navbar = () => {
 							</li>
 						</ul>
 					</div>
-
 				</div>
 			</nav>
-			<div className={status === false ? 'hiddenFour' : 'viewFour'}>
-
-			</div>
 		</Fragment >
 	)
 }

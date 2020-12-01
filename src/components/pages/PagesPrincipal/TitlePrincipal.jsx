@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import '../../style/TitlePrincipal.css'
+import '../../style/PagesPrincipalStyle/TitlePrincipal.css'
 
 const TitlePrincipal = () => {
     return (
