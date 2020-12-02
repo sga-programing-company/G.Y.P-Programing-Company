@@ -21,3 +21,24 @@
     padding-bottom: 20%;
     color: #222;
 }
+/*
+*********************************************************************
+							MEDIA QUERY
+*********************************************************************
+*/
+@media screen and (min-width: 321px){
+    .aboutUs_main h2{
+        font-size: 2.13em;
+    }
+    .aboutUs_main p{
+        font-size: 0.9em;
+    }
+}
+@media screen and (min-width: 376px){
+    .aboutUs_main h2{
+        font-size: 2.4em;
+    }
+    .aboutUs_main p{
+        font-size: 1em;
+    }
+}
