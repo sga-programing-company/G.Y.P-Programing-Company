@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
 import { Link } from "react-router-dom";
-import '../../../style/PagesPrincipalStyle/Service.css'
+import '../../../style/PagesPrincipalStyle/ServiceStyle/Service.css'
 
 const Service = ({ title, images, seo, contenet, link }) => {
     return (
         <Fragment>
             <article>
-                <div className='services_main'>
+                <div className='service_main'>
                     <h3>{title}</h3>
                     <figure>
                         <img src={images} alt={seo} title={seo} />

@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import Service from './services/Service'
+import Service from './ServicesPages/Service'
+import '../../style/PagesPrincipalStyle/Services.css'
 
 const Services = () => {
     const s = [
@@ -26,7 +27,7 @@ const Services = () => {
     return (
         <Fragment>
             <section>
-                <div>
+                <div className='services_main'>
                     <h2>NUESTROS SERVICIOS</h2>
                     <Service title={s[0].title} images={s[0].images} seo={s[0].seo} contenet={s[0].contenet} link={s[0].link} />
                     <Service title={s[1].title} images={s[1].images} seo={s[1].seo} contenet={s[1].contenet} link={s[1].link} />

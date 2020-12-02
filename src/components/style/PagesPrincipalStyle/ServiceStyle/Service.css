@@ -1,0 +1,77 @@
+/*
+*********************************************************************
+								VARIABLES
+*********************************************************************
+*/
+.service_main{
+    background: transparent;
+    color:var(--letter-color-primary)
+}
+.service_main h3{
+    text-align: center;
+    color:var(--letter-color-primary);
+    width: 70%;
+    margin: 0 15%;
+    margin-top: 10%;
+    font-size: 23px;
+}
+.service_main figure img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 3% auto;
+    clip-path: circle(50% at 50% 50%);
+    object-fit: cover;
+}
+.service_main figure figcaption p{
+    font-size: 15px;
+    width: 50%;
+    text-align: center;
+    margin: 3% 25%;
+}
+.service_main div{
+    width: 50%;
+    margin: 6% 25%;
+    background: var(--primary);
+    text-align: center;
+    padding: 2%;
+}
+.service_main div p a:any-link{
+    text-decoration: none;
+    color:var(--letter-color-secondary);
+}
+/*
+*********************************************************************
+							MEDIA QUERY
+*********************************************************************
+*/
+@media screen and (min-width: 321px){
+    .service_main h3{
+        font-size: 1.65em;
+    }
+    .service_main figure img{
+        width: 120px;
+        height: 120px;
+    }
+    .service_main figure figcaption p{
+        font-size: 1.1em;
+    }
+    .service_main div p a:any-link{
+        font-size: 1.3em;
+    }
+}
+@media screen and (min-width: 376px){
+    .service_main h3{
+        font-size: 1.85em;
+    }
+    .service_main figure img{
+        width: 135px;
+        height: 135px;
+    }
+    .service_main figure figcaption p{
+        font-size: 1.2em;
+    }
+    .service_main div p a:any-link{
+        font-size: 1.6em;
+    }
+}
