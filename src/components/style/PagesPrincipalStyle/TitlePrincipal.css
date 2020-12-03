@@ -23,25 +23,3 @@
     padding-bottom: 25%;
     font-size: 15px;
 }
-
-/*
-*********************************************************************
-							MEDIA QUERY
-*********************************************************************
-*/
-@media screen and (min-width: 321px){
-    .title_main div h1{
-        font-size: 1.8em;
-    }
-    .title_main div h2{
-        font-size: 1.2em;
-    }
-}
-@media screen and (min-width: 376px){
-    .title_main div h1{
-        font-size: 2em;
-    }
-    .title_main div h2{
-        font-size: 1.37em;
-    }
-}

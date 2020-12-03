@@ -1,0 +1,219 @@
+
+ @media screen and (max-width: 410px) and (min-width: 350px){
+    /*
+    --------------------------------------------------------
+                            NAVBAR
+    --------------------------------------------------------
+    */
+    .viewOne i,.viewThree i,.hiddenOne i{
+        font-size: 1.81em;
+	}
+	.hiddenOne b,.viewThree p,.viewTwo p{
+		font-size: 1.5em;
+	}
+    /*
+    --------------------------------------------------------
+                        TITLE PRINCIPAL
+    --------------------------------------------------------
+    */
+    .title_main div h1{
+        font-size: 1.8em;
+    }
+    .title_main div h2{
+        font-size: 1.2em;
+    }
+    /*
+    --------------------------------------------------------
+                        ABOUT US 
+    --------------------------------------------------------
+    */
+    .aboutUs_main h2{
+        font-size: 2.13em;
+    }
+    .aboutUs_main p{
+        font-size: 0.9em;
+    }
+    /*
+    --------------------------------------------------------
+                            SERVICE
+    --------------------------------------------------------
+    */
+    .services_main h2{
+        font-size: 1.81em;
+    }
+    /*
+    --------------------------------------------------------
+                            SERVICE
+    --------------------------------------------------------
+    */
+    .service_main h3{
+        font-size: 1.65em;
+    }
+    .service_main figure img{
+        width: 120px;
+        height: 120px;
+    }
+    .service_main figure figcaption p{
+        font-size: 1.1em;
+    }
+    .service_main div p a:any-link{
+        font-size: 1.3em;
+    }
+    /*
+    --------------------------------------------------------
+                            FOOTER
+    --------------------------------------------------------
+    */
+    .footer_main a:any-link{
+        font-size: 1.3em;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 465px) and (min-width: 411px){
+    /*
+    --------------------------------------------------------
+                            NAVBAR
+    --------------------------------------------------------
+    */
+    .viewOne i,.viewThree i,.hiddenOne i{
+        font-size:  2em;
+	}
+	.hiddenOne b,.viewThree p,.viewTwo p{
+		font-size: 1.7em;
+	}
+    /*
+    --------------------------------------------------------
+                        TITLE PRINCIPAL
+    --------------------------------------------------------
+    */
+    .title_main div h1{
+        font-size: 2em;
+    }
+    .title_main div h2{
+        font-size: 1.37em;
+    }
+    /*
+    --------------------------------------------------------
+                            ABOUT US 
+    --------------------------------------------------------
+    */
+    .aboutUs_main h2{
+        font-size: 2.4em;
+    }
+    .aboutUs_main p{
+        font-size: 1em;
+    }
+    /*
+    --------------------------------------------------------
+                            SERVICES
+    --------------------------------------------------------
+    */
+    .services_main h2{
+        font-size: 2em;
+    }
+    /*
+    --------------------------------------------------------
+                            SERVICE
+    --------------------------------------------------------
+    */
+    .service_main h3{
+        font-size: 1.85em;
+    }
+    .service_main figure img{
+        width: 135px;
+        height: 135px;
+    }
+    .service_main figure figcaption p{
+        font-size: 1.2em;
+    }
+    .service_main div p a:any-link{
+        font-size: 1.6em;
+    }
+    /*
+    --------------------------------------------------------
+                            FOOTER
+    --------------------------------------------------------
+    */
+    .footer_main a:any-link{
+        font-size: 1.5em;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 528px) and (min-width: 466px){
+    /*
+    --------------------------------------------------------
+                            NAVBAR
+    --------------------------------------------------------
+    */
+    .viewOne i,.viewThree i,.hiddenOne i{
+        font-size:  2.5em;
+	}
+	.hiddenOne b,.viewThree p,.viewTwo p{
+		font-size: 2.7em;
+	}
+    /*
+    --------------------------------------------------------
+                        TITLE PRINCIPAL
+    --------------------------------------------------------
+    */
+    .title_main div h1{
+        font-size: 2.3em;
+    }
+    .title_main div h2{
+        font-size: 1.6em;
+    }
+    /*
+    --------------------------------------------------------
+                            ABOUT US 
+    --------------------------------------------------------
+    */
+    .aboutUs_main h2{
+        font-size: 2.8em;
+    }
+    .aboutUs_main p{
+        font-size: 1.3em;
+    }
+    /*
+    --------------------------------------------------------
+                            SERVICES
+    --------------------------------------------------------
+    */
+    .services_main h2{
+        font-size: 2.5em;
+    }
+    /*
+    --------------------------------------------------------
+                            SERVICE
+    --------------------------------------------------------
+    */
+    .service_main h3{
+        font-size: 2.1em;
+    }
+    .service_main figure img{
+        width: 145px;
+        height: 145px;
+    }
+    .service_main figure figcaption p{
+        font-size: 1.4em;
+    }
+    .service_main div p a:any-link{
+        font-size: 1.8em;
+    }
+    /*
+    --------------------------------------------------------
+                            FOOTER
+    --------------------------------------------------------
+    */
+    .footer_main a:any-link{
+        font-size: 1.8em;
+    }
+    
+}

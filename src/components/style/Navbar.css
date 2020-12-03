@@ -149,25 +149,3 @@
 		font-size: 100%;
 	}
 }
-
-/*
-*********************************************************************
-							MEDIA QUERY
-*********************************************************************
-*/
-@media screen and (min-width: 321px){
-    .viewOne i,.viewThree i,.hiddenOne i{
-        font-size: 1.81em;
-	}
-	.hiddenOne b,.viewThree p,.viewTwo p{
-		font-size: 1.5em;
-	}
-}
-@media screen and (min-width: 376px){
-	.viewOne i,.viewThree i,.hiddenOne i{
-        font-size:  2em;
-	}
-	.hiddenOne b,.viewThree p,.viewTwo p{
-		font-size: 1.7em;
-	}
-}

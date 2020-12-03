@@ -7,6 +7,7 @@ import Navbar from './components/pages/Navbar'
 import PagePrincipal from './components/pages/PagePrincipal';
 import Footer from './components/pages/Footer';
 import './components/style/index.css'
+import './components/style/MediaQuery.css'
 
 ReactDOM.render(
   <React.StrictMode>

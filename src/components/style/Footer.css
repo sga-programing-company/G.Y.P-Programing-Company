@@ -22,13 +22,3 @@
     text-decoration: none;
     font-size: 18px;
 }
-@media screen and (min-width: 321px){
-    .footer_main a:any-link{
-        font-size: 1.3em;
-    }
-}
-@media screen and (min-width: 376px){
-    .footer_main a:any-link{
-        font-size: 1.5em;
-    }
-}
