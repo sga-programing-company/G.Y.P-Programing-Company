@@ -6,19 +6,19 @@ const Services = () => {
     const s = [
         {
             title: 'PAGINAS WEB',
-            images: 'http://ximg.es/200x200/000/fff&text=image',
+            images: 'https://github.com/sga-programing-company/imagenes/blob/main/03-1920x1280.jpg?raw=true',
             seo: 'paginas web - g.y.p programing team',
             contenet: 'hacemos paginas web con diseños modernos ,atractivos bastante intuitivo para los cliente ',
             link: '/services/paginas_web'
         }, {
             title: 'APLICACIONES MOVILES',
-            images: 'http://ximg.es/200x200/000/fff&text=image',
+            images: 'https://github.com/sga-programing-company/imagenes/blob/main/05-1920x1280.jpg?raw=true',
             seo: 'aplicaciones moviles - g.y.p programing team',
             contenet: 'creamos aplicaciones moviles intuitivas y fasiles de utilizar para distintos tipos de usuarios',
             link: '/services/aplicaciones_moviles'
         }, {
             title: 'SOPORTE PARA TUS PAGINAS WEB',
-            images: 'http://ximg.es/200x200/000/fff&text=image',
+            images: 'https://github.com/sga-programing-company/imagenes/blob/main/04-1920x1281.jpg?raw=true',
             seo: 'soporte de webs - g.y.p programing team',
             contenet: 'actualizamos y mejoramos tus paginas web cuando tu deses y solucionado errores previos ',
             link: '/services/soporte'
